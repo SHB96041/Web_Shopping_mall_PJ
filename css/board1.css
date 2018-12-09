@@ -1,0 +1,30 @@
+/* 테스트용 게시판 css입니다. */
+
+.container {
+	width: 680px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.login { height: 70px; }
+
+.left { text-align: left; }
+.right { text-align: right; }
+
+th { background-color: cyan; }
+td { display: inline-block }
+
+.list { width: 680px; }
+.list_num { width: 80px; }
+.list_title { width: 230px; }
+.list_writer { width: 100px; }
+.list_regtime { width: 180px; }
+
+.msg { width: 680px; }
+.msg_title { width: 505px;}
+.msg_header { width: 100px; }
+.msg_text { width: 580px; }
+
+a:link { text-decoration: none; color: blue; }
+a:visited { text-decoration: none; color: blue; }
+a:hover { text-decoration: none; color: red; }
